@@ -1,47 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 
 .App {
+  margin-top: 50px;
   text-align: center;
-  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.SearchBar { 
+.searchInput { 
   width: 50%;
+ 
+}
+.searchBtn {
+  width: 20%;
+  margin-top: 10px;
 }
 
-.SearchButton {
-margin-top: 50px;
+.homeBtn {
+  margin-bottom: 40px;
 }
 
-.Search {
-  width: 60%;
+/* Space btw Tab Box and Search Button  */
+.body-content {
+  margin-top: 100px;
 }
 
+.search-bar-position-updated {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 70%;
+
+}
+
+/* 
 .images {
   transition: 0.3s;
-}
+} */
 
 .images:hover, .images:focus {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Space btw Tab Header and Images */
-.imagebox {
+/* Space btw Tab line and Images */
+.pictures-outer-container {
   margin-top: 40px;
 }
 
-/* Space btw Tab Box and Search Button  */
-.Tabs {
-  margin-top: 100px;
-}
-
-.BackSpace {
-  margin-left: 50px;
-  padding: 50px;
-}
-
-.Backbtn {
-  width: 3%;
+.pictures-inner-container {
+  transform: translateY(15%) !important;
 }

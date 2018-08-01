@@ -1,31 +1,11 @@
 import React, { Component } from "react";
 import "../App.css";
-import Button from "grommet/components/Button";
-import StackGrid, { transitions } from "react-stack-grid";
-import Search from "grommet/components/Search";
-
-import createHistory from "history/createBrowserHistory";
-
-const history = createHistory();
+import StackGrid from "react-stack-grid";
 
 class SearchedImages extends Component {
-  onNavigate = () => {
-    history.goBack();
-  };
   render(props) {
     return (
-      <div>
-        <div className="BackSpace">
-          <div className="BackHeader">
-            <h1>Results</h1>
-          </div>
-          <Button
-            className="Backbtn"
-            label="Home"
-            primary={true}
-            onClick={this.onNavigate}
-          />
-        </div>
+      <div className="pictures-inner-container">
         <StackGrid
           gutterWidth={10}
           gutterHeight={10}

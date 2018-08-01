@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import StackGrid, { transitions } from "react-stack-grid";
+import StackGrid from "react-stack-grid";
 import "../App.css";
 
 class ListImages extends Component {
-  render(props) {
+  render() {
     return (
       <StackGrid
         gutterWidth={10}

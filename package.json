@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "classname": "0.0.0",
     "grommet": "^1.11.0",
     "grommet-css": "^1.6.0",
     "history": "^4.7.2",
