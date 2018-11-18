@@ -1,6 +1,6 @@
 # React Unsplash app 
 
-[Deployment](https://js-unsplash-react.netlify.com/)
+[Deployment](http://unsplash-js-react.surge.sh/)
 
 ### Developed with
 
